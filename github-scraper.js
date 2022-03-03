@@ -9,7 +9,7 @@ async function getAndWriteUsers() {
 
 	// sign in to Github
 	const signInPage = await browser.newPage();
-	const signInUrl = 'https://github.com/login';
+	const signInUrl = '...';
 
 	await signInPage.goto(signInUrl);
 	await signInPage.click('#login_field');
